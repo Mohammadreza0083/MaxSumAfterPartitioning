@@ -1,6 +1,6 @@
 ﻿namespace MaxSumAfterPartitioning
 {
-    internal class prtitionArray : IMaxSumAfterPartitioning
+    public class prtitionArray : IMaxSumAfterPartitioning
     {
         public int? Maxsum(int[] arr, int partitionLenght)
         {
