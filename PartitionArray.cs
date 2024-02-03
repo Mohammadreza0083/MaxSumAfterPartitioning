@@ -2,7 +2,7 @@
 {
     public class PartitionArray : IMaxSumAfterPartitioning
     {
-        public int? Maxsum(int[] arr, int partitionLenght)
+        public int MaxSum(int[] arr, int partitionLenght)
         {
             int arrayLenght = arr.Length;
             int[] dp = new int[arrayLenght + 1];

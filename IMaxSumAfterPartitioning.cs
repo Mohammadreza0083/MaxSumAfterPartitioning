@@ -2,6 +2,6 @@
 {
     internal interface IMaxSumAfterPartitioning
     {
-        int? Maxsum(int[] arr, int partitionLenght);
+        int MaxSum(int[] arr, int partitionLenght);
     }
 }
